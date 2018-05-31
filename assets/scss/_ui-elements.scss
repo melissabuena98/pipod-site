@@ -276,6 +276,7 @@ ul {
 
 #index-bg3 {
     // background-image: url("../images/innovation.jpg");
+    background-image: url("../images/technologies.png");
     @media(max-width: $large-width - 1) {
         background-image: none;
         .shadow {
@@ -293,6 +294,7 @@ ul {
     @media(max-width: $large-width - 1) {
         background-position: center center;
         // background-image: url("../images/innovation.jpg");
+        
         background-size: cover;
     }
 }
