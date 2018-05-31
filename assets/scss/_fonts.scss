@@ -1,0 +1,15 @@
+$NC-Medium: 'Arial', sans-serif;
+$NC-Bold: 'Arial', sans-serif;
+$NC-Light: 'Arial', sans-serif;
+
+.font-bold {
+    font-family:$NC-Bold;
+}
+
+.font-light {
+    font-family:$NC-Light;
+}
+
+b {
+    font-weight: bold;
+}
