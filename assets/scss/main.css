@@ -625,21 +625,19 @@ ul li {
   background-position: center center;
   background-size: cover; }
 
-#index-bg3 {
-  background-image: url("../images/technologies.png"); }
-  @media (max-width: 899px) {
-    #index-bg3 {
-      background-image: none;
-      background-color: #323232;
-      color: #f0f2f4; }
-      #index-bg3 .shadow {
-        text-shadow: none; }
-      #index-bg3 a {
-        color: #AD2944; }
-        #index-bg3 a:hover {
-          color: #ea9919; }
-      #index-bg3 span {
-        color: #AD2944; } }
+@media (max-width: 899px) {
+  #index-bg3 {
+    background-image: none;
+    background-color: #323232;
+    color: #f0f2f4; }
+    #index-bg3 .shadow {
+      text-shadow: none; }
+    #index-bg3 a {
+      color: #AD2944; }
+      #index-bg3 a:hover {
+        color: #ea9919; }
+    #index-bg3 span {
+      color: #AD2944; } }
 
 @media (max-width: 899px) {
   #index-bg3-small {
@@ -929,6 +927,9 @@ input[type=text] {
 
 #submit-btn {
   text-align: center; }
+
+#technologies-bg {
+  background-color: #636363; }
 
 .loader {
   background-color: #323232;

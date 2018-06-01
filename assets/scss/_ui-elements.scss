@@ -276,7 +276,7 @@ ul {
 
 #index-bg3 {
     // background-image: url("../images/innovation.jpg");
-    background-image: url("../images/technologies.png");
+    
     @media(max-width: $large-width - 1) {
         background-image: none;
         .shadow {
@@ -659,4 +659,12 @@ input[type=text] {
 
 #submit-btn {
     text-align: center;
+}
+
+#technologies-bg {
+    background-image: url(../images/technologies.png);
+    background-size: contain;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    margin-top: 7%;
 }
