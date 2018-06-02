@@ -668,3 +668,24 @@ input[type=text] {
     background-repeat-x: no-repeat;
     margin-top: 7%;
 }
+
+#raspberry-bg {
+    min-height: 400px;
+    background-position: center;
+    background-image: url("../images/raspberry-pi-3.jpg");
+    background-size: cover;
+}
+
+#mod-bg {
+    min-height: 400px;
+    background-position: center;
+    background-image: url("../images/modified-pi.jpg");
+    background-size: cover;
+}
+
+#mod2-bg {
+    min-height: 400px;
+    background-position: center;
+    background-image: url("../images/pi-project.jpg");
+    background-size: cover;
+}
